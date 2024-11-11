@@ -1,7 +1,5 @@
-window.addEventListener("load", () => {
-    setTimeout(() => {
-        document.querySelector(".loader").style.display = "none";
-    }, 2000);
+window.addEventListener("load", function () {
+    document.querySelector(".loader-bg").style.display = "none";
 });
 
 function createCard(value) {
