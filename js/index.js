@@ -1,7 +1,7 @@
 window.addEventListener("load", () => {
     setTimeout(() => {
         document.querySelector(".loader").style.display = "none";
-    }, 0);
+    }, 2000);
 });
 
 function createCard(value) {
