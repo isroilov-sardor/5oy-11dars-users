@@ -183,13 +183,15 @@ html {
 #end-btn:hover {
     filter: drop-shadow(2px 3px 4px aqua);
 }
-.end-wrapers{
+
+.end-wrapers {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
 }
+
 .block {
     background-color: white;
     border-radius: 10px;
@@ -205,7 +207,30 @@ html {
     justify-content: center;
 }
 
+.click-same {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 
+#del-all {
+    padding: 10px 15px;
+    font-size: 30px;
+    line-height: 34px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    color: #3498db;
+    text-align: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: 0.8s all;
+}
+
+#del-all:hover {
+    filter: drop-shadow(2px 3px 4px aqua);
+}
 
 
 

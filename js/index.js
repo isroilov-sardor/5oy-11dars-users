@@ -20,6 +20,7 @@ function createCard(value) {
 }
 const wrapper = document.querySelector(".end-wrapers");
 const button = document.querySelector("#end-btn");
+const delButton = document.querySelector("#del-all");
 
 button &&
     button.addEventListener("click", () => {
@@ -45,6 +46,11 @@ button &&
             });
     });
 
+delButton &&
+    delButton.addEventListener("click", function (event) {
+        event.preventDefault();
+        wrapper.innerHTML = "";
+    });
 const hoveredElement = document.querySelector("#head-link");
 const navElement = document.querySelector(".efect");
 
